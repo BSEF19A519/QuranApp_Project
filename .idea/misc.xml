@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_menu.xml" value="0.128125" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_surah_list.xml" value="0.1403985507246377" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_surahs.xml" value="0.1403985507246377" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/ayathsview.xml" value="0.1403985507246377" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/menu.xml" value="0.128125" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/parahlayout.xml" value="0.128125" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/surahcustomizedview.xml" value="0.14666666666666667" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/surahlayout.xml" value="0.12318840579710146" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

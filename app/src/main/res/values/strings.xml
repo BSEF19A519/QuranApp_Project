@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuranApp</string>
+    <string name="surah_index">Surah Index</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="by_surah">By Surah</string>
+    <string name="by_parah">By Parah</string>
+    <string name="urdu">Urdu</string>
+    <string name="translation">Translation</string>
+    <string name="english">English</string>
+
+
+</resources>
