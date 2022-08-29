@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/drawable-v24/add_comment.xml" value="0.184" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/drawable-v24/book.xml" value="0.1" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/drawable-v24/insert_comment.xml" value="0.1" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/drawable-v24/local_library.xml" value="0.1385" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_menu.xml" value="0.128125" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_surah_list.xml" value="0.1403985507246377" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/activity_surahs.xml" value="0.1403985507246377" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/ayathsview.xml" value="0.1403985507246377" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/header.xml" value="0.17552083333333332" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/menu.xml" value="0.128125" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/parahlayout.xml" value="0.128125" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/surahcustomizedview.xml" value="0.14666666666666667" />
         <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/layout/surahlayout.xml" value="0.12318840579710146" />
+        <entry key="..\:/Setups/Android_Projects/QuranApp/app/src/main/res/menu/main_menu.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>

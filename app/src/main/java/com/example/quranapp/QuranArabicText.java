@@ -6363,7 +6363,7 @@ public class QuranArabicText {
         //    List<String> list=null;
         List<String> list=new LinkedList<>();
 
-        for (int index = startIndex; index <=endIndex; ++index) {
+        for (int index = startIndex; index <endIndex; index++) {
 
             list.add(QuranArabicText[index]);
         }

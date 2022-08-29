@@ -21,7 +21,7 @@ public class ParahList extends AppCompatActivity {
         DBHelper dbHelper=new DBHelper(getApplicationContext());
         ArrayList<QuranModel> arabic = dbHelper.GetAllByParah(i);
         MyAdapter adapter = new MyAdapter(ParahList.this, arabic);
-        ListView listView = findViewById(R.id.surahdisplay);
+        ListView listView = findViewById(R.id.parahList);
         listView.setAdapter(adapter);
     }
 }

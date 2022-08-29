@@ -37,20 +37,20 @@ public class Menu extends AppCompatActivity {
                     intent.putExtra("position", i);
                     startActivity(intent);
                 }});}
-//        else if(index.equals("Parah"))
-//                {
-//                    ListView listView = findViewById(R.id.menulist);
-//                    List<String> list = qdh.GetAllParahNames();
-//                    ArrayAdapter arrayAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, list);
-//                    listView.setAdapter(arrayAdapter);
-//                    listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//                        @Override
-//                        public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-//                            Intent intent = new Intent(getApplicationContext(), ParahList.class);
-//                            Log.d("test", "you click : " + i);
-//                            intent.putExtra("position", i);
-//                            startActivity(intent);
-//                        }
-//                });}
+        else if(index.equals("Parah"))
+                {
+                    ListView listView = findViewById(R.id.menulist);
+                    List<String> list = qdh.GetAllParahNames();
+                    ArrayAdapter arrayAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, list);
+                    listView.setAdapter(arrayAdapter);
+                    listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                            Intent intent = new Intent(getApplicationContext(), ParahList.class);
+                            Log.d("test", "you click : " + i);
+                            intent.putExtra("position", i);
+                            startActivity(intent);
+                        }
+                });}
     }
 }

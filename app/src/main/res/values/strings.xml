@@ -8,6 +8,8 @@
     <string name="urdu">Urdu</string>
     <string name="translation">Translation</string>
     <string name="english">English</string>
+    <string name="todo">TODO</string>
+    <string name="quran_app">Quran App</string>
 
 
 </resources>
