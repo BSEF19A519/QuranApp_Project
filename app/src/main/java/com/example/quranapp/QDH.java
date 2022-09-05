@@ -269,6 +269,38 @@ public class QDH {
             5,
             6
     };
+    public int [] ParahStart = {
+            1,
+            149,
+            260,
+            385,
+            517,
+            641,
+            752,
+            900,
+            1042,
+            1201,
+            1329,
+            1479,
+            1649,
+            1804,
+            2030,
+            2215,
+            2484,
+            2674,
+            2876,
+            3219,
+            3385,
+            3564,
+            3727,
+            4090,
+            4265,
+            4511,
+            4706,
+            5105,
+            5242,
+            5673,
+    };
     public String[] englishParahName = {"Alif Lam Meem",
             "Sayaqool ",
             "Tilkal Rusull",
@@ -562,6 +594,24 @@ public class QDH {
             "الفَلَق",
             " النَّاس"
     };
+public String[] urduTranslation={
+        "FatehMuhammadJalandhri",
+        "MehmoodulHassan"
+};
+    public String[] englishTranslation={
+            "DrMohsinKhan",
+            "MuftiTaqiUsmani"
+    };
+    public String getenglishTranslation(int i)
+    {
+        return englishTranslation[i];
+    }
+    public String geturduTranslation(int i)
+    {
+        return urduTranslation[i];
+    }
+
+
 
     public int getSurahVerses(int surahNumber) {
         return surahAyatCount[surahNumber];
@@ -593,17 +643,18 @@ public class QDH {
 
         for (int index = 0; index < englishSurahNames.length; ++index) {
 
-            list.add(englishSurahNames[index]+"  "+urduSurahNames[index]);
+            list.add(englishSurahNames[index]+"         "+urduSurahNames[index]);
         }
         return list;
     }
+
     public List<String> GetAllParahNames() {
         //    List<String> list=null;
         List<String> list=new LinkedList<>();
 
         for (int index = 0; index < englishParahName.length; ++index) {
 
-            list.add(englishParahName[index]+"  "+ParahName[index]);
+            list.add(englishParahName[index]+"          "+ParahName[index]);
         }
         return list;
     }
@@ -613,7 +664,7 @@ public class QDH {
     }
 
     public int getParahStart(int parahNumber) {
-        return PSP[parahNumber];
+        return ParahStart[parahNumber];
     }
 }
 

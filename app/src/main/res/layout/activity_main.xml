@@ -10,52 +10,85 @@
     tools:context=".MainActivity">
 
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/c1b">
+
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@color/cardview_dark_background"
+            android:background="#C603A595"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:title="Quran App"
             app:titleTextColor="@color/cardview_light_background" />
 
-        <Button
-            android:id="@+id/bySurah"
+
+        <SearchView
+            android:id="@+id/searchView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="311dp"
-            android:layout_marginEnd="127dp"
-            android:text="@string/by_surah"
-            tools:layout_editor_absoluteX="224dp"
-            tools:layout_editor_absoluteY="648dp" />
+            android:layout_marginTop="2dp"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search Here By Surah"
+            app:layout_constraintStart_toStartOf="@+id/toolbar"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" >
+
+        </SearchView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lv2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bySurah" />
 
         <Button
             android:id="@+id/byParah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="217dp"
-            android:layout_marginEnd="127dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="52dp"
+            android:background="@color/background"
+            android:backgroundTint="@color/background"
             android:text="@string/by_parah"
-            tools:layout_editor_absoluteX="80dp"
-            tools:layout_editor_absoluteY="631dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
-    </RelativeLayout>
+        <Button
+            android:id="@+id/bySurah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/background"
+            android:text="@string/by_surah"
+            app:layout_constraintEnd_toStartOf="@+id/byParah"
+            app:layout_constraintHorizontal_bias="0.441"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
-        android:layout_gravity="start"
-        android:layout_height="match_parent"
         android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/cover"
         app:headerLayout="@layout/header"
+        app:itemTextColor="@color/white"
         app:menu="@menu/main_menu"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.navigation.NavigationView>
 
 
 
